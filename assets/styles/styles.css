@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+h1, h2{
+    font-family: "Michroma", sans-serif;
+}
+
+h3, h4, p{
+    font-family: "Montserrat", sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #CCCCFF;
+    position: sticky;
+    top: 10px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header a{
+    color: #000;
+}
+
+header li a:hover{ 
+    color: #bb8fce;
+}
+
+.hero-banner{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.text-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.positions-btnContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.positions-btnContainer button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: 2px solid #bb8fce;
+    background: none;
+    outline: none;
+    box-shadow: none; 
+}
+
+.positions-btnContainer button:hover{
+    background: #bb8fce;
+    color: #ffff;
+}
+
+.carrousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carrousel-card>img{
+    width: 200px;
+}
+
+.stadium-section{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+footer img{
+    width: 100px;
+}
